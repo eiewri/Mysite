@@ -50,7 +50,8 @@ body {
   flex: 1;
   min-width: 12rem;
 }
-.header-info h1 {
+h1 {
+  text-align: center;
   font-size: 1.7rem;
   margin-bottom: 0.5rem;
 }
@@ -150,7 +151,7 @@ body {
     text-align: center;
   }
   .master-photo {
-    width: 90%;
+    width: 100%;
     max-width: 140px;
     height: auto;
   }
@@ -188,7 +189,7 @@ body {
   }
   .master-photo {
     width: 90%;
-    height: 90%;
+    height: auto;
   }
   .header-phone {
     font-size: 1.1rem;
