@@ -91,6 +91,41 @@ h1 {
   font-size: 0.85rem;
   transition: all 0.3s ease;
 }
+.two-columns-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.two-columns {
+  display: flex;
+  gap: 2rem;
+  margin: 2 rem auto;
+}
+.column {
+  flex: 1;
+  background: #fff;
+  padding: 1.5rem;
+}
+.section .section-title {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-bottom: 1.2rem;
+  color: #060b53;
+  font-weight: 600;
+}
+.clean-list {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+.clean-list li {
+  margin-bottom: 0.6rem;
+  line-height: 1.4;
+  color: #1a2a3a;
+}
+.clean-list li:last-child {
+  margin-bottom: 0;
+}
 .footer {
   background-color: #060b53;
   color: #fff;
