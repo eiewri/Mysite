@@ -56,7 +56,9 @@ h1 {
   margin-bottom: 0.5rem;
 }
 .header-info p {
-  margin-bottom: 0.22rem;
+  margin-bottom: 0.2rem;
+  font-size: 1.1rem;
+  font-weight: 490;
 }
 .header-contacts {
   text-align: right;
