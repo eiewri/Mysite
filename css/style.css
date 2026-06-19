@@ -103,7 +103,6 @@ h1 {
 }
 .column .section-title {
   font-size: 1.4rem;
-  text-align: auto;
   margin-bottom: 1.2rem;
   color: #060b53;
   font-weight: 600;
@@ -197,8 +196,8 @@ h1 {
   font-size: 0.9rem;
 }
 .phone-link {
-  background-color: #e67e22 !important;
-  color: #fff !important;
+  background-color: #e0e0e0 !important;
+  color: #111 !important;
   font-weight: bold;
 }
 .footer-bottom {
@@ -232,7 +231,7 @@ h1 {
   .header-social {
     justify-content: center;
   }
-  .header-info h1 {
+  h1 {
     font-size: 1.4rem;
   }
   .gallery-grid {
