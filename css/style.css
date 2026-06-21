@@ -52,7 +52,6 @@ body {
   border-radius: 50%;
   border: 3px solid #e67e22;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: all 0.4s ease;
 }
 .header-container {
   display: flex;
@@ -211,8 +210,8 @@ h1 {
   font-size: 0.9rem;
 }
 .phone-link {
-  background-color: #e0e0e0 !important;
-  color: #111 !important;
+  background-color: #e67e22 !important;
+  color: #e0e0e0 !important;
   font-weight: bold;
 }
 .footer-bottom {
@@ -339,11 +338,6 @@ h1 {
     background-color: #e67e22;
     color: #fff;
     transform: translateY(-3px);
-  }
-  .master-photo:hover {
-    transform: scale(1.1);
-    border-color: #e67e22;
-    box-shadow: 0 6px 15px rgba(230, 126, 34, 0.3);
   }
   .header-social a:hover {
     background-color: #e67e22;
